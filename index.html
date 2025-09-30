@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kipepeo Delights - Premium custom cakes for all occasions">
+    <title>Kipepeo Delights - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Kipepeo Delights</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Kipepeo Delights</h1>
+            <p class="tagline">A delight in every bite.</p>
+            <a href="contact.html" class="btn-primary">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Image Slider Section -->
+    <section class="slider-section">
+        <div class="container">
+            <h2 class="section-title">Our Featured Cakes</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=600&fit=crop" alt="Delicious layered cake">
+                        <div class="slide-caption">
+                            <h3>Chocolate Delight</h3>
+                            <p>Rich, moist chocolate cake with ganache</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&h=600&fit=crop" alt="Elegant wedding cake">
+                        <div class="slide-caption">
+                            <h3>Wedding Elegance</h3>
+                            <p>Multi-tier cakes for your special day</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1588195538326-c5b1e5b80443?w=800&h=600&fit=crop" alt="Birthday celebration cake">
+                        <div class="slide-caption">
+                            <h3>Birthday Special</h3>
+                            <p>Custom designs for every celebration</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1557308536-ee471ef2c390?w=800&h=600&fit=crop" alt="Fruit topped cake">
+                        <div class="slide-caption">
+                            <h3>Fresh Fruit Cake</h3>
+                            <p>Light sponge with seasonal fruits</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+                <div class="slider-dots">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Kipepeo Delights?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎂</div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We use only the finest, freshest ingredients in all our cakes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Custom Designs</h3>
+                    <p>Personalized cakes tailored to your unique vision</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Timely Delivery</h3>
+                    <p>On-time delivery for all your special occasions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3>Made with Love</h3>
+                    <p>Every cake is crafted with passion and attention to detail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Order Your Dream Cake?</h2>
+            <p>Let us make your celebration unforgettable</p>
+            <a href="contact.html" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kipepeo Delights</h3>
+                    <p>Crafting delicious memories since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@kipepeodelights.co.ke</p>
+                    <p>Phone: +254 719 126 100</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kipepeo Delights. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

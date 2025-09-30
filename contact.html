@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Kipepeo Delights to place your cake order">
+    <title>Kipepeo Delights - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Kipepeo Delights</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Place Your Order</h1>
+        <p>Let us make your celebration special</p>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Order Form</h2>
+                    <p class="form-intro">Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <div id="successMessage" class="success-message">
+                        <span class="success-icon">✓</span>
+                        Thank you! Your order has been received. We'll contact you shortly.
+                    </div>
+                    
+                    <form id="orderForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            <span class="error-message">Please enter your name</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            <span class="error-message">Please enter a valid email address</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Contact Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+254 700 123 456" required>
+                            <span class="error-message">Please enter your contact number</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="order">Order Details *</label>
+                            <textarea id="order" name="order" rows="6" placeholder="Please describe your cake order (type, size, flavor, design, delivery date, etc.)" required></textarea>
+                            <span class="error-message">Please describe your order</span>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Place Order</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <h2>Get In Touch</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@kipepeodelights.co.ke">info@kipepeodelights.co.ke</a></p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+254700123456">+254 700 123 456</a></p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">⏰</div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Saturday<br>8:00 AM - 6:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How far in advance should I order?</h3>
+                    <p>We recommend ordering at least 3-5 days in advance for custom cakes. For large events, please order 1-2 weeks ahead.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer delivery?</h3>
+                    <p>Yes! We offer delivery within Nairobi. Delivery charges vary based on location.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I customize the design?</h3>
+                    <p>Absolutely! We specialize in custom designs. Share your vision with us and we'll bring it to life.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept M-Pesa, bank transfers, and cash payments. A 50% deposit is required to confirm your order.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kipepeo Delights</h3>
+                    <p>Crafting delicious memories since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@kipepeodelights.co.ke</p>
+                    <p>Phone: +254 700 123 456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kipepeo Delights. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
