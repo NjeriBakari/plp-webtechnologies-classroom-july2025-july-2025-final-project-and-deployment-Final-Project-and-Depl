@@ -4,7 +4,7 @@
 
 **Kipepeo Delights** is a fully responsive, multipage website for a cake business based in Nairobi, Kenya. The website showcases various cake offerings, provides detailed pricing information, and allows customers to place orders through an interactive contact form.
 
-**Live Website URL:** file:///Users/bakari/Kipepeo%20Delights/index.html
+**Live Website URL:** https://njeribakari.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ---
 
